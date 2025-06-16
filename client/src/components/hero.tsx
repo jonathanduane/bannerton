@@ -13,10 +13,10 @@ export default function Hero() {
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Video Background with Subtle Shape */}
+      {/* Video Background - Mobile Optimized */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Video container with clean rounded corners */}
-        <div className="absolute inset-4 md:inset-8 rounded-2xl overflow-hidden shadow-xl">
+        {/* Desktop video with rounded corners */}
+        <div className="hidden md:block absolute inset-8 rounded-2xl overflow-hidden shadow-xl">
           <iframe
             src="https://player.vimeo.com/video/1039504919?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
             className="absolute inset-0 w-full h-full object-cover"
@@ -24,12 +24,21 @@ export default function Hero() {
             allow="autoplay; fullscreen"
             allowFullScreen
           ></iframe>
-          
-          {/* Clean overlay for text readability */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-bannerton-navy/50 to-black/60"></div>
         </div>
         
-        {/* Background fill for areas outside video */}
+        {/* Mobile video - full screen */}
+        <div className="md:hidden absolute inset-0">
+          <iframe
+            src="https://player.vimeo.com/video/1039504919?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
+            className="absolute inset-0 w-full h-full object-cover"
+            frameBorder="0"
+            allow="autoplay; fullscreen"
+            allowFullScreen
+          ></iframe>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-bannerton-navy/70 to-black/70"></div>
+        </div>
+        
         <div className="absolute inset-0 bg-bannerton-navy -z-10"></div>
       </div>
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">

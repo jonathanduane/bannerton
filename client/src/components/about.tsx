@@ -23,12 +23,35 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
+            className="relative"
           >
-            <img 
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Professional PR team in modern office" 
-              className="rounded-2xl shadow-lg"
-            />
+            <div className="relative rounded-2xl overflow-hidden shadow-xl transform perspective-1000 rotateY-2 hover:rotateY-0 transition-all duration-500">
+              {/* Enhanced 3D Blue styling backgrounds */}
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-bannerton-navy/40 to-blue-900/30 rounded-2xl transform translate-x-4 translate-y-4 blur-lg"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-bannerton-navy/30 to-blue-800/20 rounded-2xl transform translate-x-2 translate-y-2 blur-md"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-400/15 via-bannerton-navy/20 to-blue-700/15 rounded-2xl transform translate-x-1 translate-y-1 blur-sm"></div>
+              
+              {/* Sharon's image */}
+              <img 
+                src="/sharon.jpeg"
+                alt="Sharon - Bannerton PR Leadership" 
+                className="relative z-10 w-full h-auto rounded-2xl shadow-2xl border-3 border-white/60"
+                onError={(e) => {
+                  // Fallback to professional businesswoman if Sharon's image doesn't load
+                  e.currentTarget.src = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600";
+                }}
+              />
+              
+              {/* Enhanced blue glow and shading effects */}
+              <div className="absolute inset-0 bg-gradient-to-t from-bannerton-navy/30 via-transparent to-blue-400/15 rounded-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-transparent via-blue-500/10 to-bannerton-navy/20 rounded-2xl"></div>
+              
+              {/* Cool blue highlight on edges */}
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-blue-400/50 to-transparent rounded-t-2xl"></div>
+              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-bannerton-navy/50 to-transparent rounded-b-2xl"></div>
+              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-transparent via-blue-400/50 to-transparent rounded-l-2xl"></div>
+              <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-transparent via-bannerton-navy/50 to-transparent rounded-r-2xl"></div>
+            </div>
           </motion.div>
           
           <motion.div

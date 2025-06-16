@@ -32,7 +32,7 @@ export default function Navigation() {
             <img 
               src="https://bannerton.ae/wp-content/uploads/2025/02/cropped-logo2x-300x31.png" 
               alt="Bannerton PR Logo" 
-              className="h-8"
+              className="h-6 sm:h-8 w-auto object-contain"
             />
           </div>
           
