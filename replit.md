@@ -105,6 +105,7 @@ This is a modern, responsive website for Bannerton PR, an award-winning PR agenc
 - June 15, 2025: Created client showcase slider with 43 authentic clients across 4 industry sectors
 - June 15, 2025: Added comprehensive industry expertise section covering 8 key sectors
 - June 15, 2025: Redesigned hero video with clean rounded corners and professional styling
+- June 15, 2025: Updated stats to show "20+ Years of Excellence" and enhanced Sharon's image with multi-layered blue 3D shading effects
 
 ## User Preferences
 

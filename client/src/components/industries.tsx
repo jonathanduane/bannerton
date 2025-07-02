@@ -59,18 +59,7 @@ export default function Industries() {
       <div className="absolute top-10 left-10 w-28 h-28 bg-gradient-to-br from-lavender/10 to-mint/10 rounded-full"></div>
       <div className="absolute bottom-20 right-20 w-20 h-20 bg-gradient-to-br from-sunset-orange/10 to-coral/10 rounded-full"></div>
       
-      {/* Flamingo decoration */}
-      <div className="absolute top-1/2 left-4 transform -translate-y-1/2">
-        <svg width="50" height="50" viewBox="0 0 100 100" className="opacity-20">
-          <path
-            d="M50 85 C45 85, 40 80, 40 75 L40 35 C40 30, 45 25, 50 25 C55 25, 60 30, 60 35 L60 75 C60 80, 55 85, 50 85 Z"
-            fill="#FF69B4"
-          />
-          <circle cx="50" cy="20" r="8" fill="#FF69B4" />
-          <path d="M42 18 Q35 15, 30 20" stroke="#FF69B4" strokeWidth="2" fill="none" />
-          <path d="M45 90 L40 95 M45 90 L50 95" stroke="#FF69B4" strokeWidth="2" />
-        </svg>
-      </div>
+
 
       <div className="container mx-auto px-6">
         <motion.div

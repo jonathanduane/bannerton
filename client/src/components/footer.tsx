@@ -26,7 +26,7 @@ export default function Footer() {
               className="h-8 mb-4 filter brightness-0 invert"
             />
             <p className="text-blue-100 mb-4 max-w-md">
-              Award-winning PR agency delivering exceptional results for brands ready to make their mark. Over 15 years of excellence in Dubai and beyond.
+              Award-winning PR agency delivering exceptional results for brands ready to make their mark. Over 20 years experience in Dubai and beyond.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/company/bannerton/" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-flamingo-pink transition-colors duration-300">
@@ -61,9 +61,8 @@ export default function Footer() {
           >
             <h4 className="font-semibold text-white mb-4">Contact</h4>
             <ul className="space-y-2 text-blue-100">
-              <li>Dubai, UAE</li>
               <li>+971 54 343 7673</li>
-              <li>sharon@bannerton.ie</li>
+              <li>sharon@bannerton.ae</li>
             </ul>
           </motion.div>
         </div>

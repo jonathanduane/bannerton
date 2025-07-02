@@ -120,16 +120,6 @@ export default function Contact() {
             <div className="space-y-6">
               <div className="flex items-center">
                 <div className="bg-bannerton-light p-3 rounded-full mr-4">
-                  <MapPin className="w-5 h-5 text-bannerton-navy" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-bannerton-navy">Dubai Office</h4>
-                  <p className="text-bannerton-gray">Business Bay, Dubai, UAE</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center">
-                <div className="bg-bannerton-light p-3 rounded-full mr-4">
                   <Phone className="w-5 h-5 text-bannerton-navy" />
                 </div>
                 <div>
@@ -144,7 +134,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-bannerton-navy">Email</h4>
-                  <p className="text-bannerton-gray">sharon@bannerton.ie</p>
+                  <p className="text-bannerton-gray">sharon@bannerton.ae</p>
                 </div>
               </div>
             </div>
@@ -169,7 +159,7 @@ export default function Contact() {
                     value={formData.firstName}
                     onChange={(e) => handleInputChange('firstName', e.target.value)}
                     className="mt-2 focus:ring-bannerton-navy focus:border-bannerton-navy"
-                    placeholder="John"
+                    placeholder=""
                     required
                   />
                 </div>
@@ -183,7 +173,7 @@ export default function Contact() {
                     value={formData.lastName}
                     onChange={(e) => handleInputChange('lastName', e.target.value)}
                     className="mt-2 focus:ring-bannerton-navy focus:border-bannerton-navy"
-                    placeholder="Doe"
+                    placeholder=""
                     required
                   />
                 </div>
@@ -199,7 +189,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={(e) => handleInputChange('email', e.target.value)}
                   className="mt-2 focus:ring-bannerton-navy focus:border-bannerton-navy"
-                  placeholder="john@company.com"
+                  placeholder=""
                   required
                 />
               </div>

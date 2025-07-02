@@ -79,33 +79,9 @@ export default function About() {
           viewport={{ once: true }}
           className="bg-white rounded-2xl p-8 md:p-12 shadow-lg relative overflow-hidden"
         >
-          {/* Flamingo decoration */}
-          <div className="absolute top-4 right-4 opacity-80">
-            <svg width="80" height="80" viewBox="0 0 200 200" className="drop-shadow-lg">
-              {/* Flamingo body */}
-              <ellipse cx="100" cy="120" rx="25" ry="40" fill="#FF69B4" transform="rotate(-10 100 120)"/>
-              {/* Flamingo neck */}
-              <path d="M85 100 Q70 80 60 60 Q55 45 65 35" stroke="#FF69B4" strokeWidth="12" fill="none" strokeLinecap="round"/>
-              {/* Flamingo head */}
-              <circle cx="65" cy="35" r="12" fill="#FF69B4"/>
-              {/* Beak */}
-              <path d="M55 35 L45 38 L55 41 Z" fill="#333"/>
-              {/* Eye */}
-              <circle cx="68" cy="32" r="2" fill="white"/>
-              <circle cx="69" cy="31" r="1" fill="black"/>
-              {/* Wing details */}
-              <path d="M85 110 Q110 105 115 125 Q110 140 85 135" fill="#FF1493" opacity="0.8"/>
-              {/* Leg */}
-              <line x1="100" y1="160" x2="105" y2="190" stroke="#FF69B4" strokeWidth="4"/>
-              {/* Foot */}
-              <path d="M100 190 L95 195 M105 190 L110 195 M105 190 L100 195" stroke="#FF69B4" strokeWidth="3" strokeLinecap="round"/>
-              {/* Water ripples */}
-              <ellipse cx="105" cy="195" rx="15" ry="3" fill="#87CEEB" opacity="0.5"/>
-              <ellipse cx="105" cy="195" rx="10" ry="2" fill="#87CEEB" opacity="0.7"/>
-            </svg>
-          </div>
+
           <p className="text-lg text-bannerton-gray text-center leading-relaxed">
-            <strong>Celebrating over 15 years in business.</strong> Bannerton PR is a top-rated PR agency. We offer one-on-one attention and our award-winning team is motivated by the success of our clients. Whether you're just starting off or a global brand, we have industry leading solutions just for you.
+            <strong>Celebrating over 20 years in business.</strong> Bannerton PR is a top-rated PR agency. We offer one-on-one attention and our award-winning team is motivated by the success of our clients. Whether you're just starting off or a global brand, we have industry leading solutions just for you.
           </p>
         </motion.div>
       </div>
